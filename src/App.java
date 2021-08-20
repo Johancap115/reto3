@@ -19,7 +19,7 @@ public class App extends Application {
         Parent ventana = (Pane) loader.load();
         Scene scene = new Scene(ventana);
         stage.setScene(scene);
-        stage.setTitle("Test1");
+        stage.setTitle("Sistema Estadistico");
         stage.show();
     }
 }
