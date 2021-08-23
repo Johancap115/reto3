@@ -3,7 +3,6 @@ public class SchoolGradingSystem extends GradingSystem {
     public void loadData(String data, int n) {
         
         this.setmSchoolNotas(new float[n][4]);
-        // matrizNotas = new float[Registros][4];
         float acumulado = 0;
         float[][] matrizNotas = this.getmSchoolNotas();
         String[] filasData = data.split("\n");
@@ -17,7 +16,6 @@ public class SchoolGradingSystem extends GradingSystem {
         }
         this.setmSchoolNotas(matrizNotas);
         this.setPromedio(acumulado/n);
-        //this.resolverPreguntas();
-        
+
     }
 }

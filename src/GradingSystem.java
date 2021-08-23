@@ -66,8 +66,6 @@ public class GradingSystem {
     }
 
     public void loadData() {
-        // leer valores entrada del programa
-        // dato=leerData.next();
         setDato(getLeerData().next());
     }
 
